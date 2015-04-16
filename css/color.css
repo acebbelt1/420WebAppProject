@@ -1,14 +1,19 @@
 body{
-
 	margin-top:70px;
-	background-color: #ccc;
+	background-color: #2F5168;
 }
 
-a{
-	color: #000;
+a, h4{
+	color: #F39D41;	
 }
 
-h4{
+a:hover {
+    COLOR: #FFFFFF;
+} 
+
+
+h5{
+	color: #5696BC;
 	text-decoration: underline;
 }
 
