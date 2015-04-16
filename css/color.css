@@ -3,13 +3,25 @@ body{
 	background-color: #2F5168;
 }
 
-a, h4{
+
+a{
+	color: #E04836;	
+}
+
+
+a:hover {
+    color: #FFFFFF;
+} 
+
+
+h2{
 	color: #F39D41;	
 }
 
-a:hover {
-    COLOR: #FFFFFF;
-} 
+
+h4{
+	color: #E04836;	
+}
 
 
 h5{
@@ -17,10 +29,12 @@ h5{
 	text-decoration: underline;
 }
 
+
 .jumbotron{
 
 	text-align: center;
 }
+
 
 li{
 	list-style: none;
