@@ -15,7 +15,8 @@ a:hover {
 
 
 h2{
-	color: #F39D41;	
+	color: #F39D41;
+	font-size:xx-large;
 }
 
 
@@ -27,6 +28,7 @@ h4{
 h5{
 	color: #5696BC;
 	text-decoration: underline;
+	font-size:medium
 }
 
 
@@ -38,4 +40,11 @@ h5{
 
 li{
 	list-style: none;
+}
+
+
+p{
+	
+	color:silver;
+	font-size:16px;	
 }
