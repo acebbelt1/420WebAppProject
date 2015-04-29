@@ -10,13 +10,18 @@ a{
 
 
 a:hover {
-    color: #FFFFFF;
+    color: #009900;
 } 
 
 
 h2{
 	color: #F39D41;
 	font-size:xx-large;
+}
+
+h3{
+	color:black;
+	font-size:large;	
 }
 
 
@@ -47,6 +52,13 @@ p{
 	color:silver;
 	font-size:16px;	
 }
+
+.mobilesOnly {visibility:hidden;}
+
+#container{width:inherit;}
+#left{float:left;width:inherit;}
+#right{float:right;width:100px;}
+#center{margin:0 auto;width:100px;}
 
 input[type=button], input[type=submit] {
    border-top: 1px solid #96d1f8;
