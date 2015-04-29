@@ -1,4 +1,4 @@
-body{
+﻿body{
 	margin-top:70px;
 	background-color: #2F5168;
 }
@@ -32,11 +32,10 @@ h5{
 }
 
 
-.jumbotron{
-
-	text-align: center;
+.jumbotron {
+    margin-bottom: 0px;
+    color: white;
 }
-
 
 li{
 	list-style: none;
@@ -48,3 +47,30 @@ p{
 	color:silver;
 	font-size:16px;	
 }
+
+input[type=button], input[type=submit] {
+   border-top: 1px solid #96d1f8;
+   background: #c99732;
+   background: -webkit-gradient(linear, left top, left bottom, from(#b8d43b), to(#c99732));
+   background: -webkit-linear-gradient(top, #b8d43b, #c99732);
+   background: -moz-linear-gradient(top, #b8d43b, #c99732);
+   background: -ms-linear-gradient(top, #b8d43b, #c99732);
+   background: -o-linear-gradient(top, #b8d43b, #c99732);
+   padding: 6px 12px;
+   color: #ffffff;
+   font-size: 10px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }   
+input[type=button]:hover input[type=submit]:hover {
+   border-top-color: #e82719;
+   background: #e82719;
+   color: #ccc;
+   }
+   
+input[type=button]:active input[type=submit]:active {
+   border-top-color: #000000;
+   background: #000000;
+   }
+   
